@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <a href="#" className="flex items-center space-x-2 text-tech-primary font-bold text-xl tracking-tighter hover:text-tech-accent transition-colors">
               <Terminal size={24} />
-              <span className="font-mono">DSA.AI</span>
+              <span className="font-mono">brunadsa.dev</span>
             </a>
           </div>
           
