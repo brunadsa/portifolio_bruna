@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center md:items-start">
           <div className="flex items-center space-x-2 text-white font-bold text-xl tracking-tighter mb-2">
             <Terminal size={20} className="text-tech-primary" />
-            <span className="font-mono">BRUNA_ALMEIDA</span>
+            <span className="font-mono">DSA.AI</span>
           </div>
           <p className="text-slate-500 text-sm">
             © {new Date().getFullYear()} All rights reserved.

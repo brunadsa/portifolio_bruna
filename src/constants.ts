@@ -12,7 +12,8 @@ export const PERSONAL_INFO = {
 };
 
 export const SOCIALS: SocialLink[] = [
-  { name: 'LinkedIn', url: '#', icon: 'linkedin' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/brunadsa/', icon: 'linkedin' },
+  { name: 'GitHub', url: 'https://github.com/brunadsa', icon: 'github' },
   { name: 'Email', url: `mailto:${PERSONAL_INFO.email}`, icon: 'mail' },
 ];
 

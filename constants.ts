@@ -12,7 +12,8 @@ export const PERSONAL_INFO = {
 };
 
 export const SOCIALS: SocialLink[] = [
-  { name: 'LinkedIn', url: '#', icon: 'linkedin' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/brunadsa/', icon: 'linkedin' },
+  { name: 'Github', url: "https://github.com/brunadsa", icon: "github"},
   { name: 'Email', url: `mailto:${PERSONAL_INFO.email}`, icon: 'mail' },
 ];
 
@@ -23,7 +24,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     company: 'Nestlé',
     location: 'São Paulo (Remote)',
     period: 'Nov 2021 — Present',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Nestl%C3%A9_text_logo.svg',
+    logo: 'https://www.nestle.com/sites/default/files/styles/webp_image/public/flickr-nestle-corporate-logo-2020.jpg.webp?itok=hIxvo2sU',
     trajectory: [
       { role: 'Senior Machine Learning Engineer', type: 'start' },
       { role: 'ML Tech Lead', type: 'promotion' }
@@ -42,7 +43,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     company: 'Fitec',
     location: 'São José dos Campos',
     period: 'Oct 2020 — Nov 2021',
-    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQG0K0E1_YgKvg/company-logo_200_200/company-logo_200_200/0/1630586266072?e=2147483647&v=beta&t=7yH-X8v8YyX8YyX8YyX8YyX8YyX8YyX8YyX8YyX8',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAiNJasDDXDY4GiXS5RmiZsbc8dFZeGbXgpQ&s',
     description: [
       'Developed and deployed TensorFlow-based AI models for customer support (Chatbot, sentiment analysis).',
       'Engineered and implemented a customized MLOps architecture using AWS, Docker, and Kubernetes.',
@@ -56,7 +57,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     company: 'ITA and Itaú',
     location: 'São José dos Campos',
     period: 'Jun 2018 — Dec 2023',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Ita_logo.png',
+    logo: 'https://upload.wikimedia.org/wikipedia/pt/1/1f/ITA_logo.png',
     description: [
       'Wrote course outlines in data science to guide beginning students in a data scientist training program.',
       'Mentored more than 30 future data scientists, assisted with lessons, real-world exercises, and technical support.'
@@ -69,7 +70,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     company: 'ITA',
     location: 'São José dos Campos',
     period: 'Dec 2016 — Nov 2017',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/ITA_logo.png',
+    logo: 'https://upload.wikimedia.org/wikipedia/pt/1/1f/ITA_logo.png',
     description: [
       'Implemented pattern recognition for fraud detection solutions, reducing features, time (10%), and GPU efforts.',
       'Developed an anomaly detection model processing big data (12 million instances).'
