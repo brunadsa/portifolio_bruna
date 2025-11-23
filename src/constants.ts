@@ -1,4 +1,4 @@
-import { Experience, Education, SkillCategory, Project, SocialLink } from './types';
+import type { Experience, Education, SkillCategory, Project, SocialLink } from './types';
 
 export const PERSONAL_INFO = {
   name: "Bruna Almeida, M.Sc.",

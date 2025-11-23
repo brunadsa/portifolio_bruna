@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { Briefcase, GraduationCap, Calendar, MapPin, Building2, ChevronUp } from 'lucide-react';
+import { GraduationCap, Calendar, MapPin, Building2, ChevronUp } from 'lucide-react';
 import { EXPERIENCE_DATA, EDUCATION_DATA } from '../constants';
 
 const Roadmap: React.FC = () => {

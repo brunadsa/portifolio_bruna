@@ -60,9 +60,9 @@ const About: React.FC = () => {
                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-tech-accent">this</span>.name = <span className="text-green-400">"Bruna Almeida"</span>;<br/>
                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-tech-accent">this</span>.role = <span className="text-green-400">"Principal ML Engineer"</span>;<br/>
                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-tech-accent">this</span>.focus = [<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-green-400">"GenAI"</span>,<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-green-400">"MLOps"</span>,<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-green-400">"Scalability"</span><br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-green-400">"ML Operations"</span>,<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-green-400">"AI Scalability"</span>,<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-green-400">"Gen AI"</span><br/>
                  &nbsp;&nbsp;&nbsp;&nbsp;];<br/>
                  &nbsp;&nbsp;<span className="text-white">{`}`}</span><br/><br/>
                  &nbsp;&nbsp;<span className="text-tech-primary">deploySolutions</span>() <span className="text-white">{`{`}</span><br/>

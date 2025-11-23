@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, Download, Linkedin, Mail, MapPin, Globe } from 'lucide-react';
 import { PERSONAL_INFO } from '../constants';
 
 const Hero: React.FC = () => {
@@ -33,21 +33,41 @@ const Hero: React.FC = () => {
             Building secure, scalable AI solutions from research to production.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start flex-wrap mb-10">
             <a href="#portfolio" className="group inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-tech-primary hover:bg-blue-600 transition-all shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]">
               View Work
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </a>
+            
+            <a href={PERSONAL_INFO.resume} download="Bruna_Almeida_CV.pdf" className="inline-flex items-center justify-center px-6 py-3 border border-slate-700 text-base font-medium rounded-lg text-slate-300 hover:bg-slate-800 hover:text-white transition-all hover:border-tech-glow hover:shadow-[0_0_15px_rgba(236,72,153,0.2)]">
+              <Download className="mr-2 h-5 w-5" />
+              Download CV
+            </a>
+
             <a href={`mailto:${PERSONAL_INFO.email}`} className="inline-flex items-center justify-center px-6 py-3 border border-slate-700 text-base font-medium rounded-lg text-slate-300 hover:bg-slate-800 hover:text-white transition-all hover:border-tech-accent">
               <Mail className="mr-2 h-5 w-5" />
               Contact Me
             </a>
           </div>
 
-          <div className="mt-8 flex items-center justify-center md:justify-start space-x-6 text-slate-500">
-            <a href="#" className="hover:text-tech-primary transition-colors"><Linkedin size={24} /></a>
-            <div className="h-4 w-[1px] bg-slate-700"></div>
-            <span className="font-mono text-sm">{PERSONAL_INFO.location}</span>
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4 md:gap-6 text-slate-500 text-sm font-mono">
+            <div className="flex items-center gap-2">
+              <MapPin size={16} className="text-tech-primary" />
+              <span>{PERSONAL_INFO.location}</span>
+            </div>
+            
+            <div className="hidden md:block h-4 w-[1px] bg-slate-700"></div>
+            
+            <div className="flex items-center gap-2 text-tech-glow">
+              <Globe size={16} />
+              <span>{PERSONAL_INFO.availability}</span>
+            </div>
+            
+            <div className="hidden md:block h-4 w-[1px] bg-slate-700"></div>
+
+            <a href="#" className="hover:text-white transition-colors">
+              <Linkedin size={20} />
+            </a>
           </div>
         </motion.div>
 

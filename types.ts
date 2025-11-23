@@ -6,6 +6,11 @@ export interface Experience {
   period: string;
   description: string[];
   skills?: string[];
+  logo?: string;
+  trajectory?: {
+    role: string;
+    type: 'start' | 'promotion';
+  }[];
 }
 
 export interface Education {
